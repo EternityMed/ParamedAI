@@ -1,0 +1,223 @@
+{
+  "scenario_set": "Disaster Triage - Earthquake MCI",
+  "description": "20 realistic disaster triage scenarios based on 2023 Turkey earthquake experience",
+  "author": "112 EMS Paramedic Team",
+  "scenarios": [
+    {
+      "id": 1,
+      "input": "Enkaz altından 2 saat sonra çıkarılan 35 yaş erkek, bilateral alt ekstremite crush yaralanması, bilinç açık, TA 90/60, nabız 120, SpO2 94",
+      "expected_widget": "TriageCard",
+      "expected_category": "RED",
+      "expected_additional_widgets": ["ProtocolCard", "DrugDoseCard", "WarningCard"],
+      "expected_protocol": "crush_syndrome",
+      "critical_fields": {
+        "warning": "Hiperkaliemi riski - EKG monitörizasyonu",
+        "drug": "IV SF 1L/saat + Sodyum bikarbonat"
+      }
+    },
+    {
+      "id": 2,
+      "input": "Yıkılan binadan yürüyerek çıkmış 28 yaş kadın, sol kolda yüzeyel kesiler, ambulan, bilinç açık, vitaller normal",
+      "expected_widget": "TriageCard",
+      "expected_category": "GREEN",
+      "expected_additional_widgets": [],
+      "critical_fields": {
+        "action": "Gecikmiş tedavi alanı"
+      }
+    },
+    {
+      "id": 3,
+      "input": "8 yaşında çocuk, enkaz altında bacağı sıkışmış, ağlıyor, solunum var, nabız filiform, kapiller dolum >3 saniye",
+      "expected_widget": "TriageCard",
+      "expected_category": "RED",
+      "expected_additional_widgets": ["WarningCard"],
+      "critical_fields": {
+        "action": "Acil tedavi alanı - sıvı resüsitasyonu"
+      }
+    },
+    {
+      "id": 4,
+      "input": "65 yaş kadın, göğüs ağrısı, terleme, sol kola yayılan ağrı, TA 150/90, nabız 88, SpO2 96",
+      "expected_widget": "ProtocolCard",
+      "expected_category": null,
+      "expected_additional_widgets": ["DrugDoseCard", "WarningCard"],
+      "expected_protocol": "stemi",
+      "critical_fields": {
+        "drug": "Aspirin 300mg çiğnenerek",
+        "warning": "STEMI şüphesi - acil kateterizasyon"
+      }
+    },
+    {
+      "id": 5,
+      "input": "Enkaz altında 6 saatten fazla kalmış hasta, çıkarılmadan önce ne yapmalıyım?",
+      "expected_widget": "ProtocolCard",
+      "expected_protocol": "crush_syndrome",
+      "expected_additional_widgets": ["DrugDoseCard", "WarningCard"],
+      "critical_fields": {
+        "steps": "IV erişim ÇIKARILMADAN ÖNCE sağla",
+        "drug": "SF 1-1.5L/saat infüzyon başla",
+        "warning": "Reperfüzyon sendromu riski"
+      }
+    },
+    {
+      "id": 6,
+      "input": "Solunum yok, havayolu açıldıktan sonra da solunum başlamadı",
+      "expected_widget": "TriageCard",
+      "expected_category": "BLACK",
+      "expected_additional_widgets": [],
+      "critical_fields": {
+        "action": "Morg alanı"
+      }
+    },
+    {
+      "id": 7,
+      "input": "Anafilaksi, 25 kg çocuk, 8 yaşında, yaygın ürtiker, solunum sıkıntısı, dudaklarda şişme",
+      "expected_widget": "DrugDoseCard",
+      "expected_additional_widgets": ["ProtocolCard", "WarningCard"],
+      "expected_protocol": "anaphylaxis",
+      "critical_fields": {
+        "drug": "Adrenalin 0.25mg IM (0.01mg/kg x 25kg)",
+        "route": "IM - Uyluk anterolateral"
+      }
+    },
+    {
+      "id": 8,
+      "input": "Travma hastası, GKS 7, sağ pupil dilate, TA 170/100, nabız 55, solunum düzensiz",
+      "expected_widget": "ProtocolCard",
+      "expected_additional_widgets": ["VitalSignsCard", "WarningCard"],
+      "expected_protocol": "trauma",
+      "critical_fields": {
+        "warning": "Cushing triadı - kafa içi basınç artışı",
+        "action": "Havayolu güvenceye al, entübasyon hazırlığı"
+      }
+    },
+    {
+      "id": 9,
+      "input": "70 kg yetişkin, %30 ikinci derece yanık, yüz ve gövdede",
+      "expected_widget": "DrugDoseCard",
+      "expected_additional_widgets": ["ProtocolCard", "WarningCard"],
+      "expected_protocol": "burns",
+      "critical_fields": {
+        "drug": "Parkland: 4 x 70 x 30 = 8400 mL/24saat, ilk 8 saatte yarısı",
+        "warning": "Yüz yanığı - inhalasyon hasarı değerlendir"
+      }
+    },
+    {
+      "id": 10,
+      "input": "3 yaşında çocuk, havlar tarzda öksürük, stridor, hafif çekilme",
+      "expected_widget": "ProtocolCard",
+      "expected_additional_widgets": ["DrugDoseCard"],
+      "critical_fields": {
+        "drug": "Deksametazon 0.6mg/kg PO",
+        "protocol": "Krup yönetimi"
+      }
+    },
+    {
+      "id": 11,
+      "input": "Kardiyak arrest, şahitli, VF ritmi monitörde, 80 kg yetişkin",
+      "expected_widget": "ProtocolCard",
+      "expected_additional_widgets": ["DrugDoseCard"],
+      "expected_protocol": "cardiac_arrest",
+      "critical_fields": {
+        "steps": "Defibrilasyon → CPR 2dk → Ritim kontrol → 3. şok sonrası Adrenalin + Amiodaron",
+        "drug": "Adrenalin 1mg IV, Amiodaron 300mg IV"
+      }
+    },
+    {
+      "id": 12,
+      "input": "Deprem sonrası hipotermi, vücut ısısı 30°C, bilinç bulanık, bradikardi",
+      "expected_widget": "ProtocolCard",
+      "expected_additional_widgets": ["WarningCard", "VitalSignsCard"],
+      "expected_protocol": "hypothermia",
+      "critical_fields": {
+        "warning": "Orta derece hipotermi - VF riski",
+        "action": "Aktif ısıtma, ılık IV sıvılar, kaba hareketlerden kaçın"
+      }
+    },
+    {
+      "id": 13,
+      "input": "Status epileptikus, 5 dakikadır nöbet geçiren 45 yaş erkek, 75 kg",
+      "expected_widget": "DrugDoseCard",
+      "expected_additional_widgets": ["ProtocolCard"],
+      "expected_protocol": "seizure",
+      "critical_fields": {
+        "drug": "Midazolam 10mg IM",
+        "action": "Havayolu aç, yan pozisyon, glukoz kontrol"
+      }
+    },
+    {
+      "id": 14,
+      "input": "Opioid zehirlenmesi şüphesi, solunum 6/dk, pinpoint pupiller, bilinç kapalı",
+      "expected_widget": "DrugDoseCard",
+      "expected_additional_widgets": ["ProtocolCard", "WarningCard"],
+      "expected_protocol": "poisoning",
+      "critical_fields": {
+        "drug": "Nalokson 0.4mg IV, yanıt yoksa tekrarla",
+        "warning": "Solunum desteği, BVM hazır"
+      }
+    },
+    {
+      "id": 15,
+      "input": "Arapça konuşan mülteci hasta, göğsünü tutuyor, nefes darlığı, Türkçe bilmiyor",
+      "expected_widget": "TranslationCard",
+      "expected_additional_widgets": ["ProtocolCard"],
+      "critical_fields": {
+        "source_language": "Arabic",
+        "target_language": "Turkish"
+      }
+    },
+    {
+      "id": 16,
+      "input": "Toplu kazada 15 hasta var, triaj başlatmam gerekiyor, nasıl önceliklendirmeliyim?",
+      "expected_widget": "ProtocolCard",
+      "expected_protocol": "mci_triage",
+      "critical_fields": {
+        "steps": "START triaj algoritması",
+        "action": "Yürüyebilir mi? → Solunum var mı? → SS? → Perfüzyon? → Mental durum?"
+      }
+    },
+    {
+      "id": 17,
+      "input": "45 yaşında erkek hasta, trafik kazası, göğüs ve batın travması, GKS 14, TA 100/70, nabız 110, SpO2 94, sağ hemitoraksta solunum sesleri azalmış",
+      "expected_widget": "PatientFormCard",
+      "expected_additional_widgets": ["VitalSignsCard", "WarningCard"],
+      "critical_fields": {
+        "warning": "Tansiyon pnömotoraks şüphesi",
+        "action": "İğne dekompresyon hazırlığı"
+      }
+    },
+    {
+      "id": 18,
+      "input": "İnme şüphesi, 72 yaş kadın, ani başlayan sol taraf güçsüzlük, konuşma bozukluğu, semptom başlangıcı 45 dakika önce",
+      "expected_widget": "ProtocolCard",
+      "expected_additional_widgets": ["WarningCard"],
+      "expected_protocol": "stroke",
+      "critical_fields": {
+        "warning": "Trombolitik pencere açık - acil SVO merkezi",
+        "action": "FAST pozitif, semptom onset zamanı kaydet, glukoz kontrol"
+      }
+    },
+    {
+      "id": 19,
+      "input": "36 haftalık gebe, şiddetli baş ağrısı, TA 180/110, pretibial ödem, hiperrefleksi",
+      "expected_widget": "DrugDoseCard",
+      "expected_additional_widgets": ["ProtocolCard", "WarningCard"],
+      "critical_fields": {
+        "drug": "Magnezyum sülfat 4g IV (15-20dk)",
+        "warning": "Eklampsi riski - nöbet profilaksisi",
+        "action": "Acil kadın doğum sevki"
+      }
+    },
+    {
+      "id": 20,
+      "input": "Depremde yıkılan hastane, 50+ yaralı, triaj alanı kurulacak, ekipman sınırlı, nasıl organize olmalıyım?",
+      "expected_widget": "ProtocolCard",
+      "expected_protocol": "mci_triage",
+      "expected_additional_widgets": ["WarningCard"],
+      "critical_fields": {
+        "steps": "1. Güvenlik değerlendirmesi, 2. METHANE raporu, 3. Triaj alanları kur (Kırmızı/Sarı/Yeşil/Siyah), 4. START triaj başlat, 5. Kaynak tahsisi",
+        "action": "Olay komutanı belirle, iletişim kanalı kur"
+      }
+    }
+  ]
+}

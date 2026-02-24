@@ -1,0 +1,29 @@
+{
+  "protocol_name": "Cardiac Arrest BLS/ALS Protocol",
+  "version": "2024",
+  "source": "ERC/ILCOR 2024 Resuscitation Guidelines, AHA 2024 Guidelines",
+  "sections": [
+    {
+      "title": "Basic Life Support (BLS) Algorithm",
+      "content": "1) SAFETY: Ensure scene safety. 2) CHECK RESPONSIVENESS: Shake shoulders and ask loudly for response. 3) CALL FOR HELP: Call emergency services, request AED/defibrillator. 4) AIRWAY: Head tilt-chin lift maneuver (jaw thrust if trauma suspected). 5) BREATHING CHECK: Look-listen-feel, should not take more than 10 seconds. If no normal breathing or only gasping → assume cardiac arrest. 6) CHEST COMPRESSIONS: On the center of the chest (lower half of sternum), 5-6 cm depth, rate 100-120/min, allowing full recoil, perform 30 compressions. 7) VENTILATION: Give 2 rescue breaths (each 1 second, observe chest rise). 8) Continue at 30:2 ratio. Apply AED as soon as available."
+    },
+    {
+      "title": "Advanced Life Support (ALS) Algorithm",
+      "content": "1) Attach monitor/defibrillator, perform rhythm analysis. 2) SHOCKABLE RHYTHMS (VF/pulseless VT): Biphasic 150-200J (or per device recommendation), monophasic 360J shock → immediate 2 min CPR → rhythm check. After 3rd shock: Adrenaline 1 mg IV/IO + Amiodarone 300 mg IV/IO. After 5th shock: Amiodarone 150 mg IV/IO additional dose. Then repeat Adrenaline 1 mg every 3-5 min. 3) NON-SHOCKABLE RHYTHMS (Asystole/PEA): Give Adrenaline 1 mg IV/IO immediately → 2 min CPR → rhythm check. Repeat Adrenaline 1 mg every 3-5 min. In asystole: Atropine is no longer recommended (2024 guidelines). 4) CPR QUALITY: Minimize compression interruptions (<20%), target ETCO2 >10 mmHg with capnography."
+    },
+    {
+      "title": "Drug Therapy",
+      "content": "ADRENALINE: 1 mg IV/IO every 3-5 minutes. In shockable rhythms start after 3rd shock, in non-shockable rhythms start immediately. AMIODARONE: In VF/pulseless VT, 300 mg IV/IO bolus after 3rd shock (in 20 mL 5% dextrose), 150 mg additional dose after 5th shock. LIDOCAINE (if amiodarone unavailable): 1-1.5 mg/kg IV bolus, then 0.5-0.75 mg/kg repeat (max 3 mg/kg). MAGNESIUM SULFATE: In Torsades de Pointes, 2 g (8 mmol) IV over 10-15 min. SODIUM BICARBONATE: Not routinely recommended; in severe metabolic acidosis or hyperkalemia, 50 mEq IV. CALCIUM CHLORIDE: In hyperkalemia, hypocalcemia, or calcium channel blocker poisoning, 10 mL of 10% IV."
+    },
+    {
+      "title": "Reversible Causes (4H and 4T)",
+      "content": "4H: 1) HYPOXIA — airway management, high-flow O2, capnography monitoring. 2) HYPOVOLEMIA — IV fluid resuscitation, hemorrhage control, blood products. 3) HYPO/HYPERKALEMIA and metabolic disorders — 12-lead ECG, blood gas, electrolytes; for hyperkalemia: calcium chloride + insulin-glucose + salbutamol nebulization. 4) HYPOTHERMIA — rewarming, switch to hypothermia protocol. 4T: 1) TENSION PNEUMOTHORAX — needle decompression (2nd intercostal space midclavicular line or 4th-5th intercostal space anterior axillary line). 2) TAMPONADE (cardiac) — pericardiocentesis. 3) TOXINS/POISONING — specific antidote (naloxone, lipid emulsion, etc.). 4) THROMBOEMBOLISM (pulmonary/coronary) — consider thrombolytic therapy (alteplase 50 mg IV bolus during arrest, then continue CPR for 60-90 min)."
+    },
+    {
+      "title": "Post-Resuscitation Care",
+      "content": "1) AIRWAY AND BREATHING: Target SpO2 94-98%, avoid hyperoxia, normocapnia on mechanical ventilation (ETCO2 35-45 mmHg, PaCO2 4.5-6.0 kPa). 2) CIRCULATION: Target systolic BP >100 mmHg; if hypotensive, IV fluids + vasoactive agents (noradrenaline or adrenaline infusion). 12-lead ECG — if STEMI, emergent PCI. 3) NEUROLOGICAL: Assess Glasgow Coma Scale, targeted temperature management (TTM) 32-36°C for 24 hours (in unconscious patients). Seizure control. 4) GENERAL: Blood glucose control (target 144-180 mg/dL), electrolyte balance, monitor for multi-organ failure. Transfer to nearest cardiac arrest/intensive care center."
+    }
+  ],
+  "keywords": ["cardiac arrest", "heart arrest", "CPR", "cardiopulmonary resuscitation", "defibrillation", "VF", "ventricular fibrillation", "asystole", "pulseless electrical activity", "PEA", "adrenaline", "amiodarone", "BLS", "ALS", "resuscitation"],
+  "related_protocols": ["stemi", "hypothermia", "drug_doses", "poisoning"]
+}

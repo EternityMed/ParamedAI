@@ -1,0 +1,33 @@
+{
+  "protocol_name": "START/JumpSTART Triage Protocol (Mass Casualty Incident)",
+  "version": "2024",
+  "source": "SALT Triage, START/JumpSTART, ERC 2024 MCI Guidelines, MIMMS",
+  "sections": [
+    {
+      "title": "START Algorithm Decision Tree (Adult)",
+      "content": "START (Simple Triage And Rapid Treatment) — each patient is triaged in <30 seconds. STEP 1 — CAN THEY WALK? Yes → GREEN (Minor/Delayed/T3). No → Go to Step 2. STEP 2 — IS THERE BREATHING? Open airway (head tilt-chin lift). No breathing → BLACK (Dead/Expectant/T4). Breathing present → Go to Step 3. If breathing starts after airway opened → RED (Immediate/T1). STEP 3 — RESPIRATORY RATE? >30/min → RED (Immediate/T1). <30/min → Go to Step 4. STEP 4 — PERFUSION (Capillary Refill or Radial Pulse)? Capillary refill >2 seconds OR no radial pulse → RED (Immediate/T1). At this stage, control external hemorrhage with direct pressure. Capillary refill ≤2 seconds AND radial pulse present → Go to Step 5. STEP 5 — MENTAL STATUS (Follows simple commands?) Cannot follow simple commands like 'Open your eyes', 'Squeeze my hand' → RED (Immediate/T1). Follows commands → YELLOW (Delayed/T2)."
+    },
+    {
+      "title": "JumpSTART Modifications (Pediatric — Ages 1-8)",
+      "content": "Pediatric adaptation of the START algorithm. DIFFERENCES: STEP 1: Can they walk or are they developmentally at walking age? Infant assessment differs. STEP 2: If no breathing → Open airway. If still no breathing → Check pulse (5 sec). No pulse → BLACK. Pulse present → Give 5 rescue breaths (mouth-to-mask). If spontaneous breathing starts after 5 breaths → RED. If not → BLACK. (In adult START, rescue breaths are not given; in JumpSTART they are — because in children respiratory arrest precedes cardiac arrest). STEP 3: Respiratory rate <15/min OR >45/min → RED. 15-45/min → Step 4. STEP 4: Perfusion — no peripheral (distal) pulse → RED. STEP 5: Mental status — AVPU is used: 'P' (pain response) or 'U' (unresponsive) → RED. 'A' (alert) or 'V' (voice response) → YELLOW. INFANTS <1 YEAR: Cannot walk — start directly from Step 2."
+    },
+    {
+      "title": "Triage Tag Colors and Meanings",
+      "content": "RED (T1 — Immediate): Life-threatening condition, salvageable with immediate intervention. Airway compromise, shock, uncontrolled hemorrhage, tension pneumothorax. Requires treatment within the golden hour. YELLOW (T2 — Delayed): Seriously injured but no immediate life threat within hours. Major bone fractures (including open fractures), back injuries, controlled hemorrhage. Treatment can be delayed 4-6 hours. GREEN (T3 — Minor): Walking wounded, mildly injured, can receive 'ambulatory care'. Minor fractures, abrasions, lacerations, minor burns. Treatment can wait hours to days. These patients still need treatment — 'minor' does not mean 'no treatment required'. BLACK (T4 — Dead or Expectant): No breathing (even after airway opened) OR too severely injured to be saved with available resources. Not expected to survive under current conditions. NOTE: Black tag does not mean 'do not treat' — reassess if resources increase. Ethically the most difficult decision."
+    },
+    {
+      "title": "Scene Management",
+      "content": "SCENE ORGANIZATION: 1) COMMAND STRUCTURE (ICS — Incident Command System): Assign Incident Commander, Operations Chief, Logistics Chief, Planning Chief. 2) SAFETY: Scene safety is priority — crew safety > patient safety. Secondary hazards: collapse risk, chemical/radiological, explosion, traffic. 3) ZONING: Hot zone (hazard area — rescue teams only), warm zone (decontamination), cold zone (triage, treatment, evacuation areas). 4) TRIAGE AREA: Clearly marked, ambulance accessible, 4-color collection area. 5) AMBULANCE STAGING: One-way entry-exit, queuing system. 6) EVACUATION PRIORITY: Distribution to hospitals in Red > Yellow > Green order (avoid overwhelming a single hospital!). 7) DOCUMENTATION: Attach triage tag to every patient, assign number, maintain records."
+    },
+    {
+      "title": "Resource Allocation Principles",
+      "content": "Mass casualty incidents require a different approach from normal times: THE GREATEST GOOD FOR THE GREATEST NUMBER principle applies. RESOURCE ALLOCATION RULES: 1) Treat according to triage priorities (T1 > T2 > T3). 2) Do not expend most resources on a single patient — resources are limited. 3) A patient who would be salvageable in normal times may receive a black tag in an MCI (if resources are insufficient). 4) If treatment capacity increases, repeat triage (retriage) — black-tagged patients may be upgraded to yellow. 5) Know hospital capacities in advance and plan distribution (not all red patients should go to the same hospital). 6) If casualty numbers exceed available resources → declare 'mass casualty incident', request additional resources. PERSONNEL PROTECTION: Shift system, stress management, adequate nutrition/hydration, post-incident CISD (Critical Incident Stress Debriefing)."
+    },
+    {
+      "title": "Communication — METHANE Report",
+      "content": "The initial report in a mass casualty incident is communicated in standard format. METHANE acronym: M — Major incident (Major incident declared/not declared): 'I am declaring a major incident'. E — Exact location: Address, coordinates, landmarks. Provide GPS coordinates. T — Type of incident: Earthquake, explosion, traffic accident, chemical incident, fire, structural collapse, etc. H — Hazards: Present and potential hazards (secondary collapse, fire, chemical, traffic). A — Access: Best access route, alternative routes, obstacles. N — Number of casualties: Estimated number of casualties and fatalities, severity distribution (T1/T2/T3/T4). E — Emergency services: Resources present at scene and additional resources needed (ambulances, fire service, disaster management agency, search and rescue teams, police). METHANE REPORT EXAMPLE: 'I am declaring a major incident. Location: X District, Y Street No:Z, 5-story building collapse following earthquake. Hazards: Secondary collapse risk, possible gas leak. Access: From the east, west side blocked by rubble. Estimated 30+ casualties, 5 red, 10 yellow, 15 green, unknown number trapped under rubble. 3 ambulances on scene, at least 10 additional ambulances and search and rescue team needed.'"
+    }
+  ],
+  "keywords": ["triage", "START", "JumpSTART", "mass casualty incident", "MCI", "red", "yellow", "green", "black", "METHANE", "scene management", "earthquake", "disaster", "resource allocation"],
+  "related_protocols": ["crush_syndrome", "hypothermia", "trauma", "cardiac_arrest"]
+}

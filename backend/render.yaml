@@ -1,0 +1,16 @@
+services:
+  - type: web
+    name: paramed-ai-backend
+    runtime: docker
+    dockerfilePath: ./Dockerfile.cloud
+    envVars:
+      - key: INFERENCE_MODE
+        value: dr7ai
+      - key: DR7AI_API_KEY
+        sync: false
+      - key: DR7AI_MODEL
+        value: medgemma-27b-it
+      - key: CHROMA_DB_PATH
+        value: /app/app/data/embeddings/chroma_db
+      - key: EMBEDDING_MODEL
+        value: all-MiniLM-L6-v2

@@ -1,0 +1,41 @@
+{
+  "protocol_name": "Pediatric Emergency General Approach Protocol",
+  "version": "2024",
+  "source": "ERC 2024 Paediatric Guidelines, EPALS, AHA PALS 2024",
+  "sections": [
+    {
+      "title": "Pediatric Assessment Triangle (PAT)",
+      "content": "Rapid general assessment performed in the first few seconds, without touching. THREE COMPONENTS: 1) APPEARANCE: Level of consciousness, muscle tone, interaction, gaze/eye contact, speech/cry. TICKLES mnemonic — Tone, Interactivity, Consolability, Look/gaze, Cry/speech, Excitability/state. 2) WORK OF BREATHING: Abnormal sounds (stridor, wheezing, grunting), nasal flaring, retractions (intercostal, subcostal, suprasternal, sternal), head bobbing, positioning (tripod). 3) CIRCULATION TO SKIN: Skin color — pale, mottled, cyanotic, gray. INTERPRETATION: All three normal → stable. Abnormal appearance + normal others → CNS/metabolic problem. Normal appearance + abnormal breathing → respiratory distress. Abnormal appearance + abnormal breathing → respiratory failure. All three abnormal → cardiopulmonary failure."
+    },
+    {
+      "title": "Weight Estimation (Age-Based Formulas)",
+      "content": "Weight is required for drug doses and fluid calculations. WEIGHT ESTIMATION FORMULAS: 1) Birth: ~3.5 kg. 2) 1-12 months: (age in months x 0.5) + 4 kg OR simplified: 3-12 months → (age in months + 9) / 2. 3) 1-5 years: (age in years x 2) + 8 kg. 4) 6-12 years: (age in years x 3) + 7 kg. BROSELOW TAPE: Height-to-weight estimation — more accurate, use if available. EXAMPLES: 1 year ≈ 10 kg, 2 years ≈ 12 kg, 5 years ≈ 18 kg, 8 years ≈ 25 kg, 10 years ≈ 32 kg. CAUTION: In the age of obesity, formulas give ideal weight — may be discrepant with actual weight in overweight children. Weigh the child if possible."
+    },
+    {
+      "title": "Normal Vital Signs by Age",
+      "content": "Heart rate (beats/min): Newborn: 110-160, 1 year: 100-150, 2 years: 90-140, 5 years: 80-120, 10 years: 70-110, >12 years: 60-100. Respiratory rate (/min): Newborn: 30-60, 1 year: 25-40, 2-5 years: 20-30, 6-12 years: 15-25, >12 years: 12-20. Systolic BP (mmHg) lower limit: 1 month-1 year: >70, 1-10 years: 70 + (age x 2), >10 years: >90. HYPOTENSION THRESHOLD: <1 year: SBP <60, 1-10 years: SBP <70 + (age x 2), >10 years: SBP <90. IMPORTANT: Children have large physiological reserve — hypotension is a VERY LATE sign until SHOCK is established. Tachycardia, prolonged capillary refill, cool/mottled skin are earlier signs of shock."
+    },
+    {
+      "title": "Airway Management — Pediatric Sizes",
+      "content": "ANATOMICAL DIFFERENCES: Large head/occiput (in sniffing position use small pillow or shoulder support), relatively large tongue, short neck, larynx more anterior and cephalad (C3-C4 level vs C5-C6 in adults), long/omega-shaped epiglottis, narrowest point: subglottic (cricoid cartilage) in <8 years (vocal cords in adults). EQUIPMENT SIZES: Oropharyngeal airway (OPA): Distance from corner of mouth to ear lobe. Nasopharyngeal airway (NPA): Distance from tip of nose to tragus. ENDOTRACHEAL TUBE (uncuffed — may be preferred in <8 years, cuffed tubes accepted at all ages): Internal diameter (mm) = (age/4) + 3.5 (cuffed) or (age/4) + 4 (uncuffed). Newborn: 3.0-3.5, 1 year: 4.0, 2 years: 4.5, 4 years: 5.0, 8 years: 6.0. Tube depth (from corner of mouth): Internal diameter x 3 (cm). LARYNGOSCOPE: <2 years: Straight blade (Miller) #1, 2-8 years: Curved (Macintosh) #2, >8 years: #2-3. SUPRAGLOTTIC AIRWAY: i-gel/LMA sizes by weight: 2-5 kg: #1, 5-12 kg: #1.5, 10-25 kg: #2, 25-35 kg: #2.5, 30-60 kg: #3."
+    },
+    {
+      "title": "Fluid Resuscitation",
+      "content": "SHOCK TREATMENT: Isotonic crystalloid (Ringer's Lactate or 0.9% NaCl) 20 mL/kg IV/IO bolus, give over 5-10 minutes. Assess clinical response (heart rate, capillary refill, consciousness, blood pressure). If inadequate response, repeat 20 mL/kg bolus (up to 40-60 mL/kg total — then consider blood products or vasoactive agents). CAUTION: Check for hepatomegaly and rales after each bolus (fluid overload). IN DIABETIC KETOACIDOSIS: Slower at 10-20 mL/kg/hour, do not give aggressive fluids (cerebral edema risk). IN SEPTIC SHOCK: Target 40-60 mL/kg fluid in the first hour, start vasoactives if needed (noradrenaline or adrenaline). MAINTENANCE FLUID (Holliday-Segar): First 10 kg: 4 mL/kg/hour, 10-20 kg: +2 mL/kg/hour, >20 kg: +1 mL/kg/hour. Example: 25 kg child → 40 + 20 + 5 = 65 mL/hour."
+    },
+    {
+      "title": "Common Pediatric Emergencies — Febrile Seizure",
+      "content": "Most commonly seen between 6 months-5 years of age. Seizure accompanied by fever (usually >38°C). SIMPLE FEBRILE SEIZURE: Generalized tonic-clonic, <15 min, single episode in 24 hours, postictal period <1 hour. COMPLEX: Focal onset, >15 min, >1 episode in 24 hours, prolonged postictal period. TREATMENT: 1) Ensure safety, move away from hard objects. 2) Lateral decubitus position. 3) If seizure lasts >5 min, give benzodiazepine: Midazolam 0.2 mg/kg IN/buccal (max 10 mg) OR Diazepam 0.5 mg/kg rectal (max 10 mg). 4) Antipyretic: Paracetamol 15 mg/kg oral/rectal or Ibuprofen 10 mg/kg oral (does not prevent seizures but improves comfort). 5) Investigate underlying serious infection (rule out meningitis!): Check for neck stiffness, bulging fontanelle, petechiae/purpura, poor general condition."
+    },
+    {
+      "title": "Common Pediatric Emergencies — Croup (Laryngotracheobronchitis)",
+      "content": "Ages 6 months-3 years, barking cough (seal bark), inspiratory stridor, hoarseness, typically worsens at night. ASSESSMENT — Westley Croup Score: Stridor (0-2), retractions (0-3), air entry (0-2), cyanosis (0-5), consciousness (0-5). Mild: ≤2, Moderate: 3-7, Severe: ≥8. TREATMENT: 1) MILD: Cool mist (evidence weak but common practice), keep calm, single dose oral dexamethasone 0.15-0.6 mg/kg. 2) MODERATE: Dexamethasone 0.6 mg/kg oral/IM (max 10 mg) — most effective treatment. Nebulized adrenaline (epinephrine): 1:1000 (1 mg/mL) 5 mL nebulized, response wanes within 2 hours — observe for at least 2-4 hours for rebound risk. 3) SEVERE: Nebulized adrenaline + dexamethasone + oxygen + airway preparation. Heliox (70% He + 30% O2) may be considered. If intubation needed, use tube 0.5-1 mm smaller than normal."
+    },
+    {
+      "title": "Common Pediatric Emergencies — Bronchiolitis",
+      "content": "Usually <2 years, RSV (Respiratory Syncytial Virus) is the most common cause. Nasal discharge → cough → wheezing → tachypnea → feeding difficulty. SEVERITY ASSESSMENT: Respiratory rate, degree of retractions, SpO2, ability to feed, general appearance. TREATMENT: 1) SUPPORTIVE CARE is essential: Nasal suctioning, oxygen (if SpO2 <92%), adequate hydration (IV/NG if unable to feed orally). 2) HIGH-FLOW NASAL CANNULA (HFNC): In moderate-severe cases, 2 L/kg/min (max 20 L/min), improves SpO2 and work of breathing. 3) Nebulized hypertonic saline (3%): May be beneficial in hospitalized patients. INEFFECTIVE TREATMENTS (not routinely recommended): Salbutamol, ipratropium, corticosteroids, antibiotics (unless bacterial superinfection). ADMISSION CRITERIA: SpO2 <92%, significant respiratory distress, >50% reduction in oral intake, apnea episodes, age <3 months, history of prematurity/CHD/immunodeficiency."
+    }
+  ],
+  "keywords": ["pediatric", "pediatric emergency", "febrile seizure", "croup", "bronchiolitis", "pediatric airway", "pediatric vital signs", "pediatric fluids", "Broselow", "PAT", "neonatal"],
+  "related_protocols": ["cardiac_arrest", "seizure", "anaphylaxis", "drug_doses"]
+}

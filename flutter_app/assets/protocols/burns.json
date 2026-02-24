@@ -1,0 +1,37 @@
+{
+  "protocol_name": "Burn Management Protocol",
+  "version": "2024",
+  "source": "EBA (European Burns Association) 2024, ABA Guidelines, ISBI Guidelines",
+  "sections": [
+    {
+      "title": "Burn Surface Area Calculation — Rule of Nines",
+      "content": "ADULT (Wallace Rule of Nines): Head and neck: 9%, each upper extremity: 9% (arm 4.5% + forearm/hand 4.5%), anterior chest: 9%, anterior abdomen: 9%, back: 18%, each lower extremity: 18% (thigh 9% + leg/foot 9%), perineum/genitalia: 1%. TOTAL: 100%. PEDIATRIC (Lund-Browder chart is more accurate): 0-1 year: Head 18%, each lower extremity 14%. 5 years: Head 14%, each lower extremity 16%. 10 years: Head 11%, each lower extremity 17%. PALM RULE: Patient's own palm (including fingers) ≈ 1% of body surface area — useful for small or irregular burns. BURN DEPTH: Superficial (1st degree): Erythema, painful, no blisters. Superficial dermal (2A): Blisters, moist, very painful, capillary refill present. Deep dermal (2B): Blisters, dry/moist mixed, reduced pain, slow capillary refill. Full thickness (3rd degree): White/brown/black, painless, skin is hard, dry."
+    },
+    {
+      "title": "Fluid Resuscitation — Parkland Formula",
+      "content": "INDICATION: IV fluid resuscitation required for burns >15% TBSA in adults, >10% TBSA in children. PARKLAND FORMULA: Total fluid for first 24 hours = 4 mL x body weight (kg) x burn surface area (%TBSA). APPLICATION: First half in the first 8 hours (from time of burn, NOT from hospital arrival!), remaining half over the next 16 hours. FLUID TYPE: Ringer's Lactate (preferred crystalloid). TARGET: Urine output 0.5-1 mL/kg/hour in adults, 1-2 mL/kg/hour in children. EXAMPLE: 70 kg, 30% burn → 4 x 70 x 30 = 8400 mL/24 hours. First 8 hours: 4200 mL (525 mL/hour), next 16 hours: 4200 mL (262 mL/hour). CAUTION: The formula is a STARTING point — titrate to urine output. Avoid excessive fluids (risk of abdominal compartment syndrome, pulmonary edema). ELECTRICAL BURNS: Deeper damage than visible surface — fluid requirements generally exceed the formula, target urine output 1-1.5 mL/kg/hour (risk of myoglobinuria)."
+    },
+    {
+      "title": "Airway Assessment — Inhalation Injury",
+      "content": "Inhalation injury dramatically increases mortality (adds 20-80% alone). SIGNS OF INHALATION INJURY: Exposure to fire in enclosed space, face/neck burns, singed nasal hairs, soot/carbon particles in mouth/oropharynx, carbonaceous sputum, hoarseness/stridor, respiratory distress, elevated CO-Hb (pulse oximetry unreliable — CO-oximetry required). EMERGENCY INTERVENTIONS: 1) Consider early intubation — airway edema progresses rapidly, 'wait-and-see' approach is dangerous. 2) High-flow 100% O2 (reservoir mask at 15 L/min) — also required for CO poisoning treatment (CO half-life: Room air 320 min, 100% O2 80 min, hyperbaric O2 23 min). 3) If bronchospasm, salbutamol nebulization. 4) If CO-Hb >25% or neurological symptoms, consider hyperbaric O2. CYANIDE POISONING: Consider in synthetic material fires — hydroxocobalamin 5 g IV over 15 min (preferred antidote)."
+    },
+    {
+      "title": "Cooling and First Aid",
+      "content": "COOLING: As soon as possible after the burn, cool with clean running water at 10-25°C for 20 minutes. Effective within the first 3 hours. DO NOT USE ICE — increases tissue damage. CAUTION WITH LARGE AREAS: In >20% TBSA burns, prolonged cooling may cause hypothermia (especially in children) — monitor body temperature. For chemical burns, irrigate for at least 30-60 minutes. CLOTHING: Remove clothing not adherent to the skin; cut around clothing that is stuck. JEWELRY: Remove all jewelry that may swell (rings, bracelets, watches) before edema develops. BLISTERS: Do not rupture intact blisters in prehospital setting (infection risk). Only blisters >2 cm and tense may be sterilely aspirated."
+    },
+    {
+      "title": "Dressing and Covering",
+      "content": "PREHOSPITAL DRESSING: 1) After cooling is complete, cover with a clean, sterile, non-adherent dressing (cling film/plastic wrap is ideal — transparent, non-adherent, reduces pain, compatible with circulation). Wrap lengthwise, not circumferentially. 2) Cotton/towel dressing may be used but can adhere. 3) For facial burns: Clean moist compress. 4) Silver sulfadiazine etc. is not applied in prehospital setting. 5) Cover with dry, clean blanket to prevent hypothermia."
+    },
+    {
+      "title": "Pain Management",
+      "content": "Burn pain is very severe and requires aggressive treatment. PREHOSPITAL ANALGESIA: 1) MORPHINE: 0.1 mg/kg IV titration (2-4 mg bolus, repeat every 5 min until effective or side effects develop). Pediatric: 0.1-0.2 mg/kg IV. 2) FENTANYL: 1-2 mcg/kg IV or IN (intranasal — if no IV access). 3) KETAMINE: 0.1-0.3 mg/kg IV subdissociative dose (analgesia), if needed 0.5-1 mg/kg IV procedural sedation. 4) PARACETAMOL: 1 g IV (15 min infusion) — for minor burns or combined with opioids. NSAIDs are generally avoided in burn patients due to renal failure risk."
+    },
+    {
+      "title": "Referral Criteria (Burn Center)",
+      "content": "Refer to a Burn Center in the following situations: 1) >20% TBSA burn (>10% in children and elderly). 2) Full thickness (3rd degree) >5% TBSA. 3) Special area burns: face, hands, feet, genitalia/perineum, major joints. 4) Circumferential burns (escharotomy may be needed — compartment syndrome risk). 5) Inhalation injury/suspicion. 6) Electrical burn (including lightning). 7) Chemical burn. 8) Associated trauma (to burn center if burn poses greater risk than trauma, otherwise to trauma center). 9) Significant comorbidities (diabetes, immunosuppression, etc.). 10) Suspected child abuse. 11) Inadequate social support. ESCHAROTOMY: If circulatory compromise or respiratory restriction (chest) develops in circumferential full-thickness burns, emergency escharotomy is required — may be performed in the field by experienced physician if transfer to burn center will be delayed."
+    }
+  ],
+  "keywords": ["burn", "burn percentage", "Parkland formula", "inhalation injury", "rule of nines", "fluid resuscitation", "escharotomy", "chemical burn", "electrical burn", "skin graft"],
+  "related_protocols": ["trauma", "pediatric_emergency", "drug_doses"]
+}

@@ -1,0 +1,29 @@
+{
+  "protocol_name": "Anaphylaxis Management Protocol",
+  "version": "2024",
+  "source": "ERC/ILCOR 2024 Guidelines, EAACI Anaphylaxis Guidelines",
+  "sections": [
+    {
+      "title": "Definition and Diagnostic Criteria",
+      "content": "Anaphylaxis is a rapid-onset, life-threatening systemic hypersensitivity reaction. Diagnostic criteria (at least one of the following): 1) Skin/mucosal involvement (urticaria, angioedema, pruritus, flushing) TOGETHER WITH respiratory distress OR hypotension; 2) Rapid involvement of two or more organ systems (skin, respiratory, cardiovascular, gastrointestinal) after exposure to a known or likely allergen; 3) Hypotension after exposure to a known allergen (adult systolic BP <90 mmHg or >30% decrease from baseline)."
+    },
+    {
+      "title": "Emergency Initial Management",
+      "content": "1) Remove the trigger (stop drug infusion, remove stinger if insect sting). 2) Call for help. 3) Position the patient: Sitting position if respiratory distress; supine with legs elevated if hypotension; recovery position if unconscious; PREGNANT PATIENTS in left lateral decubitus. 4) ADMINISTER ADRENALINE IM IMMEDIATELY — cornerstone of treatment, delay can be fatal."
+    },
+    {
+      "title": "Adrenaline (Epinephrine) Doses",
+      "content": "ADULT: Adrenaline 0.5 mg IM (0.5 mL of 1:1000 = 1 mg/mL solution), anterolateral thigh. Repeat every 5 minutes if no response. PEDIATRIC DOSES: >12 years: 0.5 mg IM; 6-12 years: 0.3 mg IM; 6 months-6 years: 0.15 mg IM; <6 months: 0.01 mg/kg IM. Auto-injector doses: >30 kg: 0.3 mg; 15-30 kg: 0.15 mg. IMPORTANT: Adrenaline is administered via IM route; IV route only by experienced clinician under monitoring, titrated (IV dose: 50 mcg bolus = from 1:10,000 solution)."
+    },
+    {
+      "title": "Second-Line Treatment",
+      "content": "1) IV FLUIDS: If hypotensive, 500-1000 mL 0.9% NaCl rapid infusion (pediatric 20 mL/kg bolus). Repeat as needed. 2) ANTIHISTAMINES: H1 blocker — Diphenhydramine 25-50 mg IV/IM or Pheniramine maleate 45.5 mg IM/IV slow; H2 blocker — Ranitidine 50 mg IV slow. 3) CORTICOSTEROIDS: To reduce biphasic reaction risk — Methylprednisolone 1-2 mg/kg IV or Hydrocortisone 200 mg IV. 4) BRONCHODILATOR: If bronchospasm, Salbutamol 5 mg nebulized or 4-8 puffs MDI (with spacer). 5) GLUCAGON: For patients on beta-blockers unresponsive to adrenaline, 1-2 mg IV."
+    },
+    {
+      "title": "Monitoring and Transfer",
+      "content": "All anaphylaxis patients must be observed for at least 6-12 hours. BIPHASIC REACTION: In 5-20% of patients, a second reaction may develop 1-72 hours (typically 8-12 hours) after the initial reaction. Those with severe reactions, slow responders, and those with asthma history are at higher risk. MONITORING: Continuous pulse oximetry, cardiac rhythm, and blood pressure monitoring. On discharge: Adrenaline auto-injector prescription, anaphylaxis action plan, allergy specialist referral, MedAlert bracelet recommendation."
+    }
+  ],
+  "keywords": ["anaphylaxis", "allergy", "adrenaline", "epinephrine", "urticaria", "angioedema", "bronchospasm", "hypotension", "shock", "anaphylactic shock", "allergic reaction"],
+  "related_protocols": ["cardiac_arrest", "pediatric_emergency", "drug_doses"]
+}

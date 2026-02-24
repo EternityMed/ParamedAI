@@ -1,0 +1,33 @@
+{
+  "protocol_name": "Seizure and Status Epilepticus Management Protocol",
+  "version": "2024",
+  "source": "ERC 2024, ILAE 2024 Status Epilepticus Guidelines, AES Guidelines",
+  "sections": [
+    {
+      "title": "First Aid and Safety",
+      "content": "1) SAFETY: Remove dangerous objects from around the patient, reduce risk of falls/injury. Place something soft under the head. 2) DO NOT PUT ANYTHING IN THE MOUTH — the tongue-swallowing myth is false, you may break teeth or fingers. 3) Do not hold the patient or try to restrain their movements. 4) Record the seizure duration (very important!). 5) When seizure ends, RECOVERY POSITION (left lateral decubitus): Maintains airway patency, prevents aspiration. 6) Observe: Breathing, color, seizure type (focal/generalized, tonic-clonic, atonic), eye deviation, incontinence. 7) If seizure lasts >5 minutes or recurs in succession → consider STATUS EPILEPTICUS, start drug therapy."
+    },
+    {
+      "title": "Benzodiazepine Protocol (First Line)",
+      "content": "FIRST-LINE TREATMENT IN STATUS EPILEPTICUS — Benzodiazepine: PREHOSPITAL PREFERENCE: MIDAZOLAM (fast, can be given IM/IN, no need to wait for IV access). ADULT DOSES: Midazolam 10 mg IM or IN (intranasal — 5 mg per nostril with MAD device). Midazolam 5 mg IV (if IV access available). Diazepam 10 mg IV slow (at 2 mg/min rate) or 10-20 mg rectal. Lorazepam 4 mg IV (most effective IV benzodiazepine — limited availability). PEDIATRIC DOSES: Midazolam 0.2 mg/kg IN/IM (max 10 mg), 0.15 mg/kg IV (max 5 mg). Diazepam 0.3-0.5 mg/kg IV slow (max 10 mg), 0.5 mg/kg rectal (max 20 mg). REPEAT: If no response, give one more dose after 5-10 minutes (total 2 doses of benzodiazepine). CAUTION: Risk of respiratory depression and hypotension — have bag-valve-mask and suction equipment ready."
+    },
+    {
+      "title": "Status Epilepticus Definition and Urgency",
+      "content": "DEFINITION (ILAE 2024): Continuous seizure activity lasting >5 minutes OR recurring seizures within 5 minutes without full consciousness recovery. CLASSIFICATION: 1) EARLY (5-30 min): First-line treatment — benzodiazepine. 2) ESTABLISHED (30-60 min): Second-line treatment — antiepileptic loading. 3) REFRACTORY (>60 min or unresponsive to 2 appropriate agents): General anesthesia may be required. 4) SUPER REFRACTORY: Not controlled for >24 hours despite general anesthesia. WHY IT IS URGENT: Prolonged seizure activity → excitotoxic neuronal damage, cerebral edema, rhabdomyolysis, hyperthermia, metabolic acidosis, aspiration pneumonia, cardiac arrhythmia, death. Convulsive SE exceeding 30 minutes has mortality of 20-30%."
+    },
+    {
+      "title": "Second-Line Treatment",
+      "content": "For seizures not terminated by benzodiazepine (2 doses) — SECOND-LINE ANTIEPILEPTIC LOADING: 1) LEVETIRACETAM: 60 mg/kg IV over 10 min infusion (max 4500 mg). Fewest side effects, recommended as first choice. 2) VALPROIC ACID: 40 mg/kg IV over 10 min infusion (max 3000 mg). Contraindicated in hepatic failure, pregnancy, mitochondrial disease. 3) PHENYTOIN/FOSPHENYTOIN: Phenytoin 20 mg/kg IV max 50 mg/min infusion (cardiac monitoring mandatory — risk of hypotension, arrhythmia). Fosphenytoin 20 mg PE/kg IV max 150 mg PE/min (safer, faster). 4) LACOSAMIDE: 400 mg IV over 15 min infusion (recent studies support efficacy). If no response, try a second second-line agent or proceed to anesthetic drugs."
+    },
+    {
+      "title": "Airway Management",
+      "content": "Intubation during active seizure is generally not possible or necessary. AIRWAY MANAGEMENT: 1) Lateral position (recovery position) — reduces aspiration risk. 2) Oropharyngeal suctioning (if secretions/vomitus present). 3) High-flow O2 (15 L/min non-rebreather mask) — O2 consumption increases during seizure. 4) SpO2 monitoring. 5) Nasal/oral airway: If jaw is clenched, consider NPA (OPA may not be placeable due to jaw clenching). 6) After seizure stops and consciousness does not return: Assess airway reflexes — if GCS ≤8 or high aspiration risk, consider intubation. 7) If anesthetic agents will be used for refractory SE, intubation is required. POSTICTAL PERIOD: Respiratory depression and hypoxia may occur — close monitoring, O2 support."
+    },
+    {
+      "title": "Blood Glucose Check and Differential Diagnosis",
+      "content": "BLOOD GLUCOSE: IMMEDIATELY measure capillary glucose in ALL seizure patients. HYPOGLYCEMIA (<70 mg/dL): 10% Dextrose 5 mL/kg IV (in adults 250 mL 10% Dextrose or 50 mL 50% Dextrose) — hypoglycemic seizures do not respond to antiepileptics! THIAMINE: In suspected alcoholism or malnutrition, give Thiamine 100 mg IV BEFORE or WITH glucose (to prevent Wernicke encephalopathy). DIFFERENTIAL DIAGNOSIS: Conditions to consider other than epileptic seizure: Hypoglycemia, hyponatremia, hypocalcemia, hypomagnesemia, uremia, hepatic encephalopathy, poisoning/drugs (organophosphate, TCA, isoniazid, sympathomimetics), CNS infection (meningitis/encephalitis), intracranial hemorrhage/tumor, eclampsia, febrile seizure (in children), psychogenic non-epileptic seizure (PNES). Seizure in pregnancy → consider eclampsia: MgSO4 4-6 g IV over 15-20 min loading + 1-2 g/hour infusion."
+    }
+  ],
+  "keywords": ["seizure", "epilepsy", "status epilepticus", "convulsion", "midazolam", "diazepam", "phenytoin", "levetiracetam", "valproic acid", "tonic clonic", "febrile seizure", "postictal"],
+  "related_protocols": ["pediatric_emergency", "poisoning", "drug_doses"]
+}

@@ -1,0 +1,29 @@
+# Core
+fastapi==0.115.0
+uvicorn[standard]==0.32.0
+python-multipart==0.0.18
+pydantic==2.10.0
+pydantic-settings==2.7.0
+
+# Vertex AI (online mode)
+google-cloud-aiplatform>=1.60.0
+vertexai>=1.60.0
+
+# Local HuggingFace (offline mode)
+transformers==4.48.0
+torch==2.5.0
+accelerate==1.2.0
+bitsandbytes==0.45.0
+
+# Whisper
+openai-whisper==20240930
+
+# RAG
+chromadb==0.5.23
+sentence-transformers==3.3.0
+
+# Utilities
+python-dotenv==1.0.1
+httpx==0.28.0
+Pillow==11.0.0
+numpy==2.2.0

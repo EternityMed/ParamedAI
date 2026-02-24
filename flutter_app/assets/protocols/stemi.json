@@ -1,0 +1,37 @@
+{
+  "protocol_name": "STEMI (ST-Elevation Myocardial Infarction) Protocol",
+  "version": "2024",
+  "source": "ESC 2024 STEMI Guidelines, AHA/ACC 2024, ERC 2024",
+  "sections": [
+    {
+      "title": "Recognition and Diagnosis",
+      "content": "CLINICAL: Chest pain (typical: retrosternal, pressure/squeezing character, radiating to left arm/jaw/back, lasting >20 min, unresponsive to nitroglycerin). Atypical presentations: Epigastric pain, dyspnea, nausea/vomiting, syncope, sudden death. Atypical presentation more common in elderly, diabetics, and women. ECG CRITERIA (ST Elevation): New ST elevation at J point in at least 2 contiguous leads: In V2-V3, males ≥2 mm (≥40 years) or ≥2.5 mm (<40 years), females ≥1.5 mm; in other leads ≥1 mm. NEW LEFT BUNDLE BRANCH BLOCK (LBBB): Consider STEMI equivalent if clinically concordant. POSTERIOR MI: ST depression in V1-V3 + ST elevation ≥0.5 mm in V7-V9. RIGHT VENTRICULAR MI: In inferior STEMI, ST elevation ≥1 mm in V4R."
+    },
+    {
+      "title": "Emergency Initial Treatment (MONA+)",
+      "content": "1) ASPIRIN: 300 mg chewed and swallowed (non-enteric coated). Contraindicated in aspirin allergy. 2) NITROGLYCERIN: 0.4 mg sublingual, repeat up to 3 doses every 5 min. CONTRAINDICATIONS: Systolic BP <90 mmHg, right ventricular MI suspicion, phosphodiesterase inhibitor use (sildenafil etc.) within last 24-48 hours. 3) OXYGEN: Give only if SpO2 <90% (routine O2 not recommended — hyperoxia may be harmful). 4) MORPHINE: If pain persists, 2-4 mg IV, repeat 2 mg every 5-15 min if needed. Caution: Hypotension, respiratory depression risk. Alternative: Fentanyl 25-50 mcg IV. 5) ANTIEMETIC: If nausea, Metoclopramide 10 mg IV or Ondansetron 4 mg IV."
+    },
+    {
+      "title": "P2Y12 Inhibitor",
+      "content": "Start dual antiplatelet therapy together with aspirin. PATIENTS PLANNED FOR PRIMARY PCI: Ticagrelor 180 mg loading dose (preferred) OR Prasugrel 60 mg loading dose (contraindicated in prior stroke/TIA, caution if >75 years or <60 kg). Clopidogrel 600 mg loading (if ticagrelor/prasugrel cannot be used). PATIENTS PLANNED FOR FIBRINOLYTIC THERAPY: Clopidogrel 300 mg loading (≤75 years), >75 years 75 mg (no loading dose). Ticagrelor/Prasugrel NOT RECOMMENDED with fibrinolytics."
+    },
+    {
+      "title": "Anticoagulation",
+      "content": "PRIMARY PCI: Heparin (UFH) 70-100 U/kg IV bolus (50-70 U/kg if GP IIb/IIIa will be used). Alternative: Enoxaparin 0.5 mg/kg IV bolus or Bivalirudin. FIBRINOLYTIC THERAPY: Enoxaparin preferred — <75 years: 30 mg IV bolus + 1 mg/kg SC every 12 hours starting 15 min later; ≥75 years: No IV bolus, 0.75 mg/kg SC every 12 hours (max 75 mg/dose). Alternative: UFH 60 U/kg IV bolus (max 4000 U) + 12 U/kg/hour infusion (max 1000 U/hour). Fondaparinux 2.5 mg IV bolus, then 2.5 mg SC/day (can be used with streptokinase)."
+    },
+    {
+      "title": "Reperfusion Strategy: PCI vs Fibrinolytic",
+      "content": "PRIMARY PERCUTANEOUS CORONARY INTERVENTION (PCI): Preferred reperfusion method. TARGET TIMES: First medical contact (FMC) — wire crossing <90 minutes. If transfer needed, <120 minutes from FMC. If PCI cannot be performed within 120 min → give FIBRINOLYTIC therapy (if <12 hours from symptom onset). FIBRINOLYTIC THERAPY: Preferred agents: Tenecteplase (TNK) — single IV bolus, weight-based: <60 kg: 30 mg, 60-69 kg: 35 mg, 70-79 kg: 40 mg, 80-89 kg: 45 mg, ≥90 kg: 50 mg. Consider half-dose TNK in patients >75 years (studies ongoing). Alteplase (tPA): 15 mg IV bolus + 0.75 mg/kg over 30 min infusion (max 50 mg) + 0.5 mg/kg over 60 min infusion (max 35 mg). Streptokinase: 1.5 million U / 100 mL 0.9% NaCl, 30-60 min IV infusion. SUCCESSFUL REPERFUSION CRITERIA: >50% resolution of ST elevation (at 60-90 min), significant chest pain reduction, reperfusion arrhythmias (accelerated idioventricular rhythm). If fibrinolysis fails → rescue PCI."
+    },
+    {
+      "title": "Fibrinolytic Contraindications",
+      "content": "ABSOLUTE CONTRAINDICATIONS: Hemorrhagic stroke (at any time), ischemic stroke (within last 6 months), CNS neoplasm/AVM, major trauma/surgery/head trauma (within last 3 weeks), GI bleeding (within last month), known bleeding diathesis, aortic dissection, puncture at non-compressible site within last 24 hours (lumbar puncture, hepatic biopsy). RELATIVE CONTRAINDICATIONS: TIA (within last 6 months), oral anticoagulant use, pregnancy or postpartum within 1 week, refractory hypertension (SBP >180 mmHg), advanced liver disease, infective endocarditis, active peptic ulcer, prolonged/traumatic resuscitation."
+    },
+    {
+      "title": "Complications and Monitoring",
+      "content": "ARRHYTHMIAS: VF/VT → defibrillation + ALS protocol. Bradycardia/AV block (especially inferior MI) → atropine, temporary pacemaker if needed. HEART FAILURE / CARDIOGENIC SHOCK: Monitor Killip classification. In shock: Noradrenaline/dobutamine, IABP, consider mechanical support. MECHANICAL COMPLICATIONS: Free wall rupture, VSD, papillary muscle rupture → emergency surgery. ONGOING ISCHEMIA: If pain/ST changes persist, emergent PCI. TRANSFER: All STEMI patients should be transferred to a PCI-capable center. Continuous monitoring in ambulance, defibrillator ready, medications accessible."
+    }
+  ],
+  "keywords": ["STEMI", "myocardial infarction", "heart attack", "chest pain", "ST elevation", "PCI", "fibrinolytic", "tenecteplase", "aspirin", "ticagrelor", "heparin", "reperfusion", "cardiogenic shock"],
+  "related_protocols": ["cardiac_arrest", "drug_doses"]
+}

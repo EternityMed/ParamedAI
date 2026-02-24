@@ -1,0 +1,41 @@
+{
+  "protocol_name": "Trauma ABCDE Approach Protocol",
+  "version": "2024",
+  "source": "ATLS 10th Edition, ERC 2024 Trauma Guidelines, ITLS",
+  "sections": [
+    {
+      "title": "Primary Survey — ABCDE",
+      "content": "Systematic ABCDE approach to assess and treat life-threatening conditions in order. Any problem found at each stage is treated immediately before moving to the next. If patient deteriorates, restart from A."
+    },
+    {
+      "title": "A — Airway and Cervical Spine Stabilization",
+      "content": "Cervical spine protection: Assume cervical injury in all trauma patients. Apply manual in-line stabilization (MILS), then cervical collar. Airway assessment: Can they speak? Is the voice hoarse? Is there stridor? Foreign body, blood, vomitus present? INTERVENTIONS: Jaw thrust maneuver (in trauma, do NOT perform head tilt!), suctioning, oropharyngeal airway (if unconscious with no gag reflex), nasopharyngeal airway (if no suspected skull base fracture), endotracheal intubation or surgical airway (cricothyrotomy) if needed."
+    },
+    {
+      "title": "B — Breathing",
+      "content": "ASSESSMENT: Respiratory rate, depth, pattern; symmetry of chest expansion; tracheal position (deviation?); percussion (hyperresonance or dullness); auscultation (equal breath sounds?); pulse oximetry. LIFE-THREATENING CONDITIONS: 1) Tension pneumothorax — needle decompression: 14-16G cannula at 2nd intercostal space midclavicular line or 4th-5th ICS anterior axillary line, followed by chest tube. 2) Open pneumothorax — three-sided occlusive dressing, then chest tube. 3) Massive hemothorax — chest tube (28-32F) + IV fluid/blood replacement. 4) Flail chest — pain management, positive pressure ventilation may be needed. All patients receive high-flow O2 (15 L/min reservoir mask)."
+    },
+    {
+      "title": "C — Circulation and Hemorrhage Control",
+      "content": "EXTERNAL HEMORRHAGE CONTROL: 1) Direct pressure (direct compression). 2) Tourniquet (for extremity massive hemorrhage — record application time). 3) Hemostatic agent (for junctional/cavity wounds). 4) Pelvic binder (if pelvic fracture suspected). ASSESSMENT: Pulse (rate, quality, regularity), capillary refill time (<2 sec normal), skin color and temperature, blood pressure, signs of shock. HEMORRHAGIC SHOCK CLASSIFICATION: Class I: <15% loss (<750 mL), pulse <100; Class II: 15-30% (750-1500 mL), pulse 100-120, anxiety; Class III: 30-40% (1500-2000 mL), pulse 120-140, confusion; Class IV: >40% (>2000 mL), pulse >140, lethargy. IV ACCESS: 2 large-bore (14-16G) IV cannulas, if unsuccessful IO access. FLUIDS: Balanced crystalloid (Ringer's Lactate) 1-2 L bolus, assess response. Massive transfusion protocol: pRBC:FFP:Platelets = 1:1:1 ratio. Permissive hypotension: In penetrating trauma target SBP 80-90 mmHg (except head trauma). TRANEXAMIC ACID: 1 g IV over 10 min (within first 3 hours of trauma), then 1 g over 8 hours infusion."
+    },
+    {
+      "title": "D — Disability (Neurological Status)",
+      "content": "AVPU: Alert, Voice responsive, Pain responsive, Unresponsive. GLASGOW COMA SCALE (GCS): Eye opening (E1-4) + Motor response (M1-6) + Verbal response (V1-5) = 3-15. GCS ≤8 → airway protection (consider intubation). PUPILS: Size, equality, light reaction. Unilateral dilation = herniation suspicion → emergent neurosurgery consultation. BLOOD GLUCOSE: Must check, correct hypoglycemia (<70 mg/dL with 10% Dextrose 250 mL IV). LATERALIZING SIGNS: Record hemiparesis, anisocoria, decorticate/decerebrate posturing."
+    },
+    {
+      "title": "E — Exposure and Environmental Control",
+      "content": "Remove all patient clothing, examine head to toe (front, back, skin folds). Prevent hypothermia: Dry warm blankets, warmed IV fluids, increase ambient temperature. Perform log-roll maneuver for back examination (maintaining cervical stabilization). Document all findings."
+    },
+    {
+      "title": "Secondary Survey",
+      "content": "Performed after primary survey is complete and life threats are addressed. AMPLE history: A-Allergies, M-Medications (current), P-Past medical history, L-Last meal, E-Events (incident details, mechanism). Head-to-toe systematic examination: Head (scalp, face, behind ears, periorbital), neck (JVD, subcutaneous emphysema, trachea), chest (palpation, auscultation), abdomen (distension, tenderness, rigidity), pelvis (stability test once), perineum/rectum, extremities (deformity, pulses, neurovascular), neurological (detailed). Required imaging: Trauma triad (AP chest, AP pelvis, FAST ultrasound). FAST (Focused Assessment with Sonography for Trauma): Free fluid screening (Morrison's pouch, splenorenal, suprapubic, subxiphoid)."
+    },
+    {
+      "title": "Referral Criteria (Trauma Center)",
+      "content": "Transfer to Level 1 or 2 trauma center in the following situations: GCS <14, systolic BP <90 mmHg, respiratory rate <10 or >29, penetrating trauma (head, neck, torso, proximal extremity), flail chest, ≥2 proximal long bone fractures, crush/avulsion/burn >20%, pelvic fracture, open/depressed skull fracture, amputation, paralysis. MECHANISM CRITERIA: In-vehicle death, ejection from vehicle, fall from >6m height, pedestrian struck at >30 km/h."
+    }
+  ],
+  "keywords": ["trauma", "ABCDE", "primary survey", "hemorrhagic shock", "hemorrhage control", "tourniquet", "cervical stabilization", "pneumothorax", "hemothorax", "GCS", "FAST", "tranexamic acid"],
+  "related_protocols": ["crush_syndrome", "burns", "cardiac_arrest", "drug_doses"]
+}

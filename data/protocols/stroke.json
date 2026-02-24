@@ -1,0 +1,37 @@
+{
+  "protocol_name": "Stroke Assessment and Management Protocol",
+  "version": "2024",
+  "source": "ESO 2024 Guidelines, AHA/ASA 2024, ERC 2024",
+  "sections": [
+    {
+      "title": "FAST Assessment",
+      "content": "FAST test for rapid recognition of suspected stroke: F (Face): Ask the patient to smile — is there facial asymmetry, drooping on one side? A (Arms): Ask them to raise both arms together — does one arm drift down or cannot be raised? S (Speech): Ask them to repeat a simple sentence — is speech slurred, nonsensical, or unable to speak? T (Time): Record the symptom onset time PRECISELY! Determine 'last known normal time'. If any warning sign is present, immediately initiate transfer to the nearest hospital with a stroke center. EVERY MINUTE MATTERS: Without treatment, 1.9 million neurons die per minute."
+    },
+    {
+      "title": "Cincinnati Prehospital Stroke Scale (CPSS)",
+      "content": "Three findings are assessed: 1) FACIAL DROOP: Ask the patient to show teeth or smile. Normal: Both sides move equally. Abnormal: One side of the face does not move as well as the other. 2) ARM DRIFT: Ask them to close eyes and hold arms straight out for 10 seconds. Normal: Both arms move equally or neither moves. Abnormal: One arm does not move or drifts down. 3) SPEECH ABNORMALITY: Ask them to repeat a sentence ('The weather is very nice today'). Normal: Correct words, clear pronunciation. Abnormal: Uses wrong words, slurred speech (dysarthria) or cannot speak (aphasia). INTERPRETATION: If even 1 of 3 findings is positive, stroke probability is 72%; if all 3 positive, >85%."
+    },
+    {
+      "title": "Blood Glucose Check and Initial Assessment",
+      "content": "BLOOD GLUCOSE: MUST measure capillary blood glucose in suspected stroke. Hypoglycemia (<70 mg/dL) can mimic stroke → correct with 10% Dextrose 250 mL IV and reassess. Hyperglycemia (>180 mg/dL) worsens stroke prognosis — document, will be treated in hospital. GENERAL ASSESSMENT: ABCDE approach, GCS, NIHSS (National Institutes of Health Stroke Scale — fully applied in hospital), pupil reactions, neck stiffness (subarachnoid hemorrhage?), vital signs, ECG (identify AF, rule out MI), SpO2, temperature."
+    },
+    {
+      "title": "Time Window and Thrombolysis",
+      "content": "INTRAVENOUS THROMBOLYSIS (IV tPA/alteplase): Can be administered within <4.5 hours from symptom onset. Alteplase 0.9 mg/kg IV (max 90 mg), 10% as bolus, remainder over 60 min infusion. Tenecteplase: Studies support 0.25 mg/kg IV bolus (max 25 mg) use in large vessel occlusion (2024 updates). MECHANICAL THROMBECTOMY: In large vessel occlusion (LVO — ICA, M1, basilar) <6 hours from symptom onset (in selected cases <24 hours with perfusion imaging). CRITICAL TIME TARGETS: Door-to-needle <30 minutes (for thrombolysis), door-to-groin <90 minutes (for thrombectomy). PREHOSPITAL: Record symptom onset time, target hospital with stroke center, pre-notify hospital (stroke code activation), minimize transfer time."
+    },
+    {
+      "title": "Transport and Stroke Center Referral",
+      "content": "NEAREST STROKE CENTER: Prefer hospital capable of administering stroke treatment (24/7 CT, neurology, thrombolysis capability). SUSPECTED LARGE VESSEL OCCLUSION (LAMS ≥4, RACE ≥5): Direct to comprehensive stroke center capable of mechanical thrombectomy (direct transport — bypass if appropriate). IN AMBULANCE: Elevate head 30°, establish IV access (antecubital, preparation for thrombolysis), maintain SpO2 >94%, pulse and BP monitoring. HOSPITAL PRE-NOTIFICATION: Report 'stroke code' — patient's age, symptom onset time, FAST/CPSS findings, GCS, blood glucose, anticoagulant use."
+    },
+    {
+      "title": "Blood Pressure Management",
+      "content": "PREHOSPITAL: Blood pressure in stroke patients is usually elevated — this is generally a protective response. THROMBOLYSIS CANDIDATE: BP must be <185/110 mmHg (before thrombolysis). If BP >185/110: Labetalol 10-20 mg IV over 1-2 min or Nicardipine 5 mg/hour IV infusion (max 15 mg/hour). POST-THROMBOLYSIS: Maintain BP <180/105 mmHg for first 24 hours. NON-THROMBOLYSIS CANDIDATE ISCHEMIC STROKE: Do not give antihypertensives unless BP >220/120 mmHg. Do not reduce more than 15% in first 24 hours. HEMORRHAGIC STROKE: If SBP >150 mmHg, reduce to 140 mmHg (in acute phase). CAUTION: AVOID excessive BP reduction in prehospital setting — may compromise cerebral perfusion!"
+    },
+    {
+      "title": "Contraindications (For IV Thrombolysis)",
+      "content": "ABSOLUTE CONTRAINDICATIONS: Intracranial hemorrhage within last 3 months, known AVM/aneurysm/neoplasm, active internal bleeding, severe head trauma or stroke within last 3 months, intracranial/spinal surgery (last 3 months), aortic dissection, BP cannot be controlled (<185/110), hemorrhage on CT. RELATIVE CONTRAINDICATIONS: Platelets <100,000, INR >1.7 or PT >15 sec, LMWH use within last 48 hours, blood glucose <50 mg/dL, minor or rapidly improving symptoms (NIHSS <4 — except if LVO present), major surgery (last 14 days), GI/urinary bleeding within last 21 days, arterial puncture at non-compressible site within last 7 days, seizure at onset (postictal paralysis must be excluded), pregnancy. >75 years and >4.5 hours: Relative contraindication (risk-benefit assessment)."
+    }
+  ],
+  "keywords": ["stroke", "ischemic stroke", "hemorrhagic stroke", "FAST", "thrombolysis", "alteplase", "thrombectomy", "aphasia", "hemiplegia", "paralysis", "cerebrovascular occlusion", "NIHSS", "Cincinnati"],
+  "related_protocols": ["cardiac_arrest", "seizure", "drug_doses"]
+}

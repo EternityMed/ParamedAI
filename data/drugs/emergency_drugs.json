@@ -1,0 +1,425 @@
+{
+  "version": "2024",
+  "source": "ERC/ILCOR/AHA Guidelines",
+  "drugs": [
+    {
+      "id": "adrenaline",
+      "name": "Adrenalin (Epinefrin)",
+      "class": "Sempatomimetik",
+      "indications": ["Anafilaksi", "Kardiyak arrest", "Şiddetli astım", "Krup"],
+      "adult": {
+        "anafilaksi": {
+          "dose_mg_per_kg": 0.01,
+          "fixed_dose_mg": 0.5,
+          "max_mg": 0.5,
+          "route": "IM",
+          "site": "Uyluk anterolateral",
+          "concentration": "1:1000 (1mg/mL)",
+          "repeat": "5 dakikada tekrarlanabilir",
+          "notes": "IV adrenalin anafilakside KULLANILMAZ (deneyimli personel hariç)"
+        },
+        "kardiyak_arrest": {
+          "dose_mg": 1.0,
+          "route": "IV/IO",
+          "concentration": "1:10000 (0.1mg/mL)",
+          "interval": "Her 3-5 dakikada tekrarla",
+          "notes": "Şoklanabilir ritimlerde 3. şoktan sonra başla"
+        }
+      },
+      "pediatric": {
+        "anafilaksi": {
+          "dose_mg_per_kg": 0.01,
+          "max_mg": 0.3,
+          "route": "IM",
+          "concentration": "1:1000",
+          "age_based": {
+            "<6_ay": 0.05,
+            "6ay_6yas": 0.15,
+            "6_12_yas": 0.3
+          }
+        },
+        "kardiyak_arrest": {
+          "dose_mg_per_kg": 0.01,
+          "max_mg": 1.0,
+          "route": "IV/IO",
+          "concentration": "1:10000",
+          "interval": "Her 3-5 dakikada tekrarla"
+        }
+      },
+      "contraindications": [],
+      "warnings": ["IV anafilakside kullanılmaz (monitörizasyon altında hariç)", "MAO inhibitörü kullanan hastalarda dikkat", "Dijital kullanan hastalarda aritmi riski"]
+    },
+    {
+      "id": "amiodarone",
+      "name": "Amiodaron",
+      "class": "Antiaritmik (Sınıf III)",
+      "indications": ["VF/Nabızsız VT", "Kararlı VT", "Atriyal fibrilasyon"],
+      "adult": {
+        "vf_vt": {
+          "dose_mg": 300,
+          "route": "IV bolus",
+          "dilution": "20mL %5 dekstroz içinde",
+          "repeat": "150mg IV 3-5 dakika sonra tekrarlanabilir"
+        }
+      },
+      "pediatric": {
+        "vf_vt": {
+          "dose_mg_per_kg": 5,
+          "max_mg": 300,
+          "route": "IV/IO bolus"
+        }
+      },
+      "warnings": ["Hipotansiyon riski", "QT uzaması olan hastalarda dikkat", "Tiroid hastalığı olanlarda dikkat"]
+    },
+    {
+      "id": "midazolam",
+      "name": "Midazolam",
+      "class": "Benzodiazepin",
+      "indications": ["Nöbet", "Status epileptikus", "Sedasyon"],
+      "adult": {
+        "nobet": {
+          "dose_mg": 10,
+          "route": "IM veya İntranazal",
+          "max_mg": 10,
+          "repeat": "Gerekirse 10 dakika sonra tekrarla"
+        },
+        "sedasyon": {
+          "dose_mg": 2.5,
+          "route": "IV (yavaş)",
+          "max_mg": 7.5,
+          "titration": "Her 2 dakikada 1mg artır"
+        }
+      },
+      "pediatric": {
+        "nobet": {
+          "dose_mg_per_kg": 0.2,
+          "max_mg": 10,
+          "route": "IM/İntranazal/Bukkal",
+          "age_based": {
+            "1_5_yas": 5,
+            "5_10_yas": 7.5,
+            ">10_yas": 10
+          }
+        }
+      },
+      "warnings": ["Solunum depresyonu riski", "Flumazenil (antidot) hazır bulundur", "Yaşlılarda doz azalt"]
+    },
+    {
+      "id": "atropine",
+      "name": "Atropin",
+      "class": "Antikolinerjik",
+      "indications": ["Semptomatik bradikardi", "Organofosfat zehirlenmesi"],
+      "adult": {
+        "bradikardi": {
+          "dose_mg": 0.5,
+          "route": "IV",
+          "max_mg": 3.0,
+          "interval": "Her 3-5 dakikada tekrarla",
+          "notes": "0.5mg altı paradoks bradikardi yapabilir"
+        },
+        "organofosfat": {
+          "dose_mg": 2.0,
+          "route": "IV",
+          "repeat": "Sekresyonlar kuruyuncaya kadar tekrarla (2-4mg her 5-10dk)"
+        }
+      },
+      "pediatric": {
+        "bradikardi": {
+          "dose_mg_per_kg": 0.02,
+          "min_mg": 0.1,
+          "max_mg": 0.5,
+          "route": "IV/IO"
+        }
+      },
+      "warnings": ["Glokom hastalarında dikkat", "Minimum doz 0.5mg (yetişkin)", "Taşikardide kullanılmaz"]
+    },
+    {
+      "id": "morphine",
+      "name": "Morfin",
+      "class": "Opioid Analjezik",
+      "indications": ["Şiddetli ağrı", "Akut koroner sendrom", "Pulmoner ödem"],
+      "adult": {
+        "agri": {
+          "dose_mg": 5,
+          "route": "IV (yavaş)",
+          "max_mg": 20,
+          "titration": "Her 5 dakikada 2.5-5mg, yanıt değerlendir",
+          "notes": "SpO2 ve solunum monitörizasyonu"
+        },
+        "aks": {
+          "dose_mg": 2.5,
+          "route": "IV (yavaş)",
+          "max_mg": 10,
+          "notes": "Nitrogliserin yetersizse"
+        }
+      },
+      "pediatric": {
+        "agri": {
+          "dose_mg_per_kg": 0.1,
+          "max_mg": 5,
+          "route": "IV (yavaş)"
+        }
+      },
+      "warnings": ["Solunum depresyonu riski", "Nalokson (antidot) hazır bulundur", "Hipotansiyon riski", "Kafa travmasında dikkat"]
+    },
+    {
+      "id": "salbutamol",
+      "name": "Salbutamol (Albuterol)",
+      "class": "Beta-2 Agonist",
+      "indications": ["Akut astım", "KOAH alevlenme", "Bronkospazm", "Hiperkaliemi"],
+      "adult": {
+        "astim": {
+          "dose_mg": 5,
+          "route": "Nebül",
+          "repeat": "Gerekirse her 20 dakikada tekrarla",
+          "notes": "O2 6-8 L/dk ile nebülize et"
+        },
+        "hiperkaliemi": {
+          "dose_mg": 10,
+          "route": "Nebül",
+          "notes": "K+ düşürücü etki için yüksek doz"
+        }
+      },
+      "pediatric": {
+        "astim": {
+          "dose_mg": 2.5,
+          "route": "Nebül",
+          "notes": "<5 yaş: 2.5mg, >5 yaş: 5mg"
+        }
+      },
+      "warnings": ["Taşikardi yapabilir", "Tremor", "Hipokaliemi"]
+    },
+    {
+      "id": "sodium_bicarbonate",
+      "name": "Sodyum Bikarbonat",
+      "class": "Alkalinizan Ajan",
+      "indications": ["Metabolik asidoz", "Crush sendromu", "TCA zehirlenmesi", "Hiperkaliemi"],
+      "adult": {
+        "asidoz": {
+          "dose_mEq_per_kg": 1,
+          "route": "IV",
+          "concentration": "%8.4 (1mEq/mL)",
+          "notes": "Yavaş IV infüzyon, kan gazı takibi"
+        },
+        "crush_sendromu": {
+          "dose_mEq": 50,
+          "route": "IV",
+          "notes": "Her litre SF'ye 50mEq ekle, idrar pH>6.5 hedefle"
+        }
+      },
+      "pediatric": {
+        "asidoz": {
+          "dose_mEq_per_kg": 1,
+          "max_mEq": 50,
+          "route": "IV (yavaş)",
+          "dilution": "1:1 SF ile dilüe et"
+        }
+      },
+      "warnings": ["Hipokaliemi yapabilir", "Ekstravazasyonda doku nekrozu", "Aynı damar yolundan kalsiyum verilmez"]
+    },
+    {
+      "id": "calcium_gluconate",
+      "name": "Kalsiyum Glukonat",
+      "class": "Elektrolit",
+      "indications": ["Hiperkaliemi", "Crush sendromu", "Kalsiyum kanal blokörü zehirlenmesi", "Hipokalsemi"],
+      "adult": {
+        "hiperkaliemi": {
+          "dose_mL": 10,
+          "concentration": "%10 (10mL ampul)",
+          "route": "IV (yavaş, 2-5 dakikada)",
+          "repeat": "EKG değişiklikleri devam ederse 5 dk sonra tekrarla",
+          "notes": "Kardiyoprotektif — K+ düzeyini düşürmez, kalbi korur"
+        },
+        "crush_sendromu": {
+          "dose_mL": 10,
+          "route": "IV",
+          "notes": "Hiperkaliemi bulguları varsa (sivri T, geniş QRS)"
+        }
+      },
+      "pediatric": {
+        "hiperkaliemi": {
+          "dose_mg_per_kg": 60,
+          "max_mg": 3000,
+          "route": "IV (yavaş)",
+          "notes": "Kalp monitörizasyonu altında"
+        }
+      },
+      "warnings": ["Dijital kullanan hastalarda dikkat (aritmi riski)", "Bikarbonat ile aynı hattan verilmez", "Ekstravazasyonda doku hasarı"]
+    },
+    {
+      "id": "aspirin",
+      "name": "Asetilsalisilik Asit (Aspirin)",
+      "class": "Antitrombosit",
+      "indications": ["Akut koroner sendrom", "STEMI", "NSTEMI"],
+      "adult": {
+        "aks": {
+          "dose_mg": 300,
+          "route": "PO (çiğnenerek)",
+          "notes": "Mümkün olan en kısa sürede ver"
+        }
+      },
+      "pediatric": {
+        "not_indicated": true,
+        "notes": "Reye sendromu riski — pediatrik AKS'de kullanılmaz"
+      },
+      "warnings": ["Aktif GİS kanama", "Aspirin alerjisi", "Trombositopeni"]
+    },
+    {
+      "id": "nitroglycerin",
+      "name": "Nitrogliserin",
+      "class": "Nitrat (Vazodilatör)",
+      "indications": ["Göğüs ağrısı", "AKS", "Akut pulmoner ödem", "Hipertansif kriz"],
+      "adult": {
+        "gogus_agrisi": {
+          "dose_mg": 0.4,
+          "route": "Sublingual (dil altı)",
+          "repeat": "5 dakikada tekrarla, max 3 doz",
+          "notes": "Sistolik TA >90 mmHg olmalı"
+        },
+        "pulmoner_odem": {
+          "dose_mcg_per_min": 10,
+          "route": "IV infüzyon",
+          "titration": "Her 5 dakikada 10mcg/dk artır",
+          "max_mcg_per_min": 200
+        }
+      },
+      "warnings": ["Sistolik TA <90 mmHg'da KONTRENDİKE", "Sağ ventrikül MI'da KONTRENDİKE", "Son 24 saatte PDE5 inhibitörü (sildenafil vb.) kullanımında KONTRENDİKE", "Baş ağrısı sık yan etki"]
+    },
+    {
+      "id": "ketamine",
+      "name": "Ketamin",
+      "class": "Disosiyatif Anestezik",
+      "indications": ["Prosedürel sedasyon", "Şiddetli ağrı", "Astım (refrakter)"],
+      "adult": {
+        "sedasyon": {
+          "dose_mg_per_kg": 1.5,
+          "route": "IV",
+          "notes": "Yavaş IV (1-2 dakikada)"
+        },
+        "analjezi": {
+          "dose_mg_per_kg": 0.3,
+          "route": "IV",
+          "notes": "Subdisosiyatif doz"
+        }
+      },
+      "pediatric": {
+        "sedasyon": {
+          "dose_mg_per_kg": 1.5,
+          "route": "IV",
+          "notes": "IM verilecekse: 4-5 mg/kg"
+        }
+      },
+      "warnings": ["Laringospazm riski", "Kafa içi basınç artışında dikkat", "Emerjan reaksiyon (uyanırken ajitasyon)"]
+    },
+    {
+      "id": "ondansetron",
+      "name": "Ondansetron",
+      "class": "Antiemetik (5-HT3 Antagonist)",
+      "indications": ["Bulantı/kusma"],
+      "adult": {
+        "bulanti": {
+          "dose_mg": 4,
+          "route": "IV (yavaş)",
+          "max_mg": 16,
+          "repeat": "Gerekirse 8 saatte bir tekrarla"
+        }
+      },
+      "pediatric": {
+        "bulanti": {
+          "dose_mg_per_kg": 0.15,
+          "max_mg": 4,
+          "route": "IV"
+        }
+      },
+      "warnings": ["QT uzaması riski", "Karaciğer yetmezliğinde doz azalt"]
+    },
+    {
+      "id": "magnesium_sulfate",
+      "name": "Magnezyum Sülfat",
+      "class": "Elektrolit / Antikonvülzan",
+      "indications": ["Eklampsi", "Şiddetli preeklampsi", "Torsades de Pointes", "Şiddetli astım"],
+      "adult": {
+        "eklampsi": {
+          "dose_g": 4,
+          "route": "IV (15-20 dakikada)",
+          "maintenance": "1-2 g/saat IV infüzyon",
+          "notes": "Derin tendon refleksleri, solunum sayısı ve idrar çıkışı izle"
+        },
+        "torsades": {
+          "dose_g": 2,
+          "route": "IV (1-2 dakikada)",
+          "notes": "Nabızsız ise bolus ver"
+        }
+      },
+      "warnings": ["Solunum depresyonu riski", "Kalsiyum glukonat antidot olarak hazır bulundur", "Böbrek yetmezliğinde dikkat"]
+    },
+    {
+      "id": "naloxone",
+      "name": "Nalokson",
+      "class": "Opioid Antagonist",
+      "indications": ["Opioid zehirlenmesi", "Solunum depresyonu (opioid kaynaklı)"],
+      "adult": {
+        "opioid_zehirlenme": {
+          "dose_mg": 0.4,
+          "route": "IV/IM/SC/İntranazal",
+          "max_mg": 10,
+          "titration": "Her 2-3 dakikada 0.4mg tekrarla",
+          "notes": "Yarı ömrü kısa — relaps riski, tekrar dozlama gerekebilir"
+        }
+      },
+      "pediatric": {
+        "opioid_zehirlenme": {
+          "dose_mg_per_kg": 0.01,
+          "min_mg": 0.1,
+          "max_mg": 2,
+          "route": "IV/IM"
+        }
+      },
+      "warnings": ["Akut yoksunluk sendromu tetikleyebilir", "Yarı ömrü kısa — relaps izle", "Tekrar dozlama sıklıkla gerekir"]
+    },
+    {
+      "id": "furosemide",
+      "name": "Furosemid",
+      "class": "Loop Diüretik",
+      "indications": ["Akut pulmoner ödem", "Konjestif kalp yetmezliği"],
+      "adult": {
+        "pulmoner_odem": {
+          "dose_mg": 40,
+          "route": "IV (yavaş)",
+          "max_mg": 80,
+          "notes": "Kronik kullanıcılarda günlük oral dozun 2 katı"
+        }
+      },
+      "pediatric": {
+        "pulmoner_odem": {
+          "dose_mg_per_kg": 1,
+          "max_mg": 40,
+          "route": "IV"
+        }
+      },
+      "warnings": ["Hipovolemi riski", "Elektrolit imbalansı (K+, Na+)", "Hipotansiyon"]
+    },
+    {
+      "id": "dexamethasone",
+      "name": "Deksametazon",
+      "class": "Kortikosteroid",
+      "indications": ["Krup", "Anafilaksi (ikinci basamak)", "Serebal ödem", "Bulantı/kusma"],
+      "adult": {
+        "anafilaksi": {
+          "dose_mg": 8,
+          "route": "IV/IM",
+          "notes": "İkinci basamak tedavi — adrenalin yerine geçmez"
+        }
+      },
+      "pediatric": {
+        "krup": {
+          "dose_mg_per_kg": 0.6,
+          "max_mg": 10,
+          "route": "PO/IM/IV",
+          "notes": "Tek doz genellikle yeterli"
+        }
+      },
+      "warnings": ["Hiperglisemi", "Diyabetik hastalarda dikkat", "Tek doz güvenli"]
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "protocol_name": "Hypothermia Management Protocol (Earthquake/Disaster Conditions)",
+  "version": "2024",
+  "source": "ERC 2024 Hypothermia Guidelines, Wilderness Medical Society 2024",
+  "sections": [
+    {
+      "title": "Definition and Classification",
+      "content": "Hypothermia is defined as a core body temperature <35°C. CLASSIFICATION: 1) MILD HYPOTHERMIA (32-35°C): Conscious, shivering present (thermogenic response preserved), tachycardia, vasoconstriction, tachypnea. Patient can speak and cooperate. 2) MODERATE HYPOTHERMIA (28-32°C): Altered consciousness, shivering decreases or stops, bradycardia, hypotension, increased atrial fibrillation risk, muscle rigidity, paradoxical undressing behavior. 3) SEVERE HYPOTHERMIA (<28°C): Loss of consciousness, shivering stopped, severe bradycardia, very high VF risk, pupils dilated and light reflex slow/absent, 'appears dead'. 4) PROFOUND HYPOTHERMIA (<24°C): Asystole or VF, minimal vital signs, but FULL RECOVERY IS POSSIBLE — 'do not declare dead until rewarmed!' EARTHQUAKE/DISASTER: Those trapped under rubble for extended periods, injured persons exposed to outdoor elements, wet clothing and wind exposure dramatically increase hypothermia risk."
+    },
+    {
+      "title": "Active External Rewarming",
+      "content": "IN MILD HYPOTHERMIA: 1) Remove wet clothing, cover with dry clothes/blankets. 2) Move to warm, sheltered environment. 3) Give warm sweet beverages (if conscious). 4) Encourage exercise/movement (if mild hypothermia and conscious — increases heat production). IN MODERATE-SEVERE HYPOTHERMIA: 1) Passive external rewarming (dry blankets, foil blankets). 2) Active external rewarming: Forced-air warming blankets (Bair Hugger), hot water bottles around the torso (neck, axillae, groin — 42-44°C), chemical heat packs (do not apply directly to skin — burn risk). 3) REWARMING PRIORITY: Warm the trunk first (truncal rewarming) — do NOT start from extremities! Peripheral vasodilation causes cold blood to return to the core → 'afterdrop' phenomenon (paradoxical decrease in core temperature) → VF risk. 4) Rewarming rate: Target 0.5-2°C/hour."
+    },
+    {
+      "title": "Warm IV Fluids",
+      "content": "Administer IV fluids warmed to 38-42°C (0.9% NaCl or Ringer's Lactate). METHODS: 1) Commercial fluid warmers (most ideal). 2) Warming fluid bags in hot water bath. 3) Wrapping between chemical heat packs. CONTRIBUTION: Does not significantly increase rewarming rate alone (approximately 0.5-1°C/hour) but prevents heat loss. VOLUME: 250-500 mL bolus, repeat as needed — hypothermic patients generally have increased fluid requirements (cold diuresis → dehydration). POTASSIUM-CONTAINING FLUIDS: Hypothermia can cause hyperkalemia — prefer potassium-free fluids until K+ is monitored. OTHER INVASIVE REWARMING: Warm lavage (peritoneal lavage 42°C, thoracic lavage, bladder lavage), ECMO/cardiopulmonary bypass (most effective — 4-6°C/hour rewarming, gold standard in severe hypothermia but only available at specialized centers)."
+    },
+    {
+      "title": "Cardiac Arrest in Hypothermia",
+      "content": "GOLDEN RULE: 'A hypothermic patient cannot be declared dead until rewarmed!' (Not dead until warm and dead). PULSE CHECK: Extend up to 60 seconds (bradycardia may be very pronounced). START CPR: If definite cardiac arrest confirmed, start standard CPR (30:2). DEFIBRILLATION: At core temperature <30°C, VF is generally resistant to defibrillation — attempt 3 shocks, if no response do not deliver additional shocks until core temperature reaches 30°C, continue CPR. At >30°C, apply standard ALS protocol. DRUG THERAPY: At core temperature <30°C, DO NOT give adrenaline and amiodarone (very slow metabolism, risk of toxic accumulation). Between 30-35°C, double the drug intervals (every 6-10 min). At >35°C, standard dosing. CPR DURATION: Prolonged CPR may be required — continue until rewarming is achieved or ECMO is connected. Cases of full neurological recovery after hours of CPR have been reported. TRANSPORT: If possible, transfer to a center capable of ECMO/cardiopulmonary bypass."
+    },
+    {
+      "title": "Careful Handling — VF Risk",
+      "content": "The hypothermic heart is very susceptible to ventricular fibrillation. TRIGGERS: Rough movements, sudden position changes, rough examination, central venous catheterization, intubation stimulation. RULES: 1) Transport the patient in horizontal position (vertical position increases cold blood return to the core). 2) Make movements gentle and slow. 3) Avoid unnecessary examination and procedures. 4) When removing clothing, prefer cutting over undressing (reduces movement). 5) Apply continuous cardiac monitoring. 6) Use rescue bags/vacuum mattresses to improve stabilization. 7) Set ambulance cabin temperature to maximum. ASSESSMENT: Core temperature measurement ideally with esophageal probe (rectal and tympanic measurements may lag or be inaccurate). If no esophageal probe, measure rectally (low-reading thermometer — standard thermometers may not read below 34°C)."
+    }
+  ],
+  "keywords": ["hypothermia", "low body temperature", "rewarming", "frostbite", "cold injury", "afterdrop", "VF", "ventricular fibrillation", "earthquake", "disaster", "rubble", "ECMO", "shivering"],
+  "related_protocols": ["cardiac_arrest", "crush_syndrome", "trauma", "mci_triage"]
+}

@@ -1,0 +1,41 @@
+{
+  "protocol_name": "Crush Syndrome Management Protocol (Earthquake/Disaster)",
+  "version": "2024",
+  "source": "RENAL Disaster Relief Task Force, ERC 2024, WHO Crush Syndrome Guidelines",
+  "sections": [
+    {
+      "title": "Definition and Pathophysiology",
+      "content": "Crush syndrome is a systemic condition resulting from reperfusion injury of muscle tissue that has been under prolonged pressure (typically >1 hour). Earthquakes, building collapses, and entrapment under rubble are the most common causes. PATHOPHYSIOLOGY: Muscle cells undergo necrosis during crushing → intracellular contents (myoglobin, potassium, phosphorus, uric acid, creatine kinase) are released → when rubble is removed (reperfusion), these substances enter the systemic circulation → HYPERKALEMIA (cardiac arrest risk!), MYOGLOBINURIA (acute kidney injury), DIC, METABOLIC ACIDOSIS, HYPOCALCEMIA develop. CRITICAL: Most of the damage occurs AFTER rubble removal (during the reperfusion phase)!"
+    },
+    {
+      "title": "Pre-Extrication Management",
+      "content": "GOLDEN RULE: If possible, establish IV access and start fluid therapy BEFORE rubble removal! 1) IV ACCESS: Place large-bore IV cannula as early as possible (from an arm other than the trapped extremity). If access not possible, consider IO access. 2) FLUID THERAPY: Start 0.9% NaCl (isotonic saline) at 1-1.5 L/hour. Ideally should be started 1 hour before extraction. AVOID potassium-containing fluids (do NOT give Ringer's Lactate!). 3) CARDIAC MONITORING: If possible, monitor ECG (hyperkalemia signs: peaked T waves, QRS widening, sinus bradycardia). 4) TOURNIQUET: Have ready for massive hemorrhage control during rubble removal, but do NOT routinely use tourniquet in crush syndrome — completely blocking reperfusion leads to loss of the entire extremity."
+    },
+    {
+      "title": "IV Fluid Protocol",
+      "content": "AGGRESSIVE fluid resuscitation in crush syndrome is life-saving. TARGET: Urine output 200-300 mL/hour (at least 1-2 mL/kg/hour). PROTOCOL: First 24 hours — 0.9% NaCl at 1-1.5 L/hour (10-15 L/day may be required). Alternative: Alternate every 1L NaCl with 1L 5% Dextrose. Once urine output established: Give a portion of each liter of fluid as 5% Dextrose + Sodium Bicarbonate (add 50 mEq NaHCO3 to each 1L of 5% Dextrose) — target urine pH >6.5. CAUTION: Monitor for fluid overload signs (dyspnea, rales, JVD). Reduce fluid rate in anuric patients. POTASSIUM-CONTAINING FLUIDS ARE NOT GIVEN (Ringer's Lactate, Potassium Chloride are prohibited!)."
+    },
+    {
+      "title": "Sodium Bicarbonate Therapy",
+      "content": "INDICATION: To correct metabolic acidosis and prevent myoglobin precipitation. APPLICATION: Add NaHCO3 to IV fluids — 50 mEq (50 mL of 8.4%) sodium bicarbonate per 1L of 5% Dextrose. TARGET: Urine pH >6.5 (alkaline urine reduces myoglobin tubular precipitation), serum pH 7.35-7.45. CAUTION: Bicarbonate may worsen hypocalcemia (decreases ionized calcium). Do not routinely replace calcium unless significant hypocalcemia symptoms (tetany, Chvostek sign) are present — because administered calcium deposits in damaged muscles."
+    },
+    {
+      "title": "Hyperkalemia Management",
+      "content": "Hyperkalemia is the MOST ACUTE cause of death in crush syndrome (cardiac arrest!). If K+ >5.5 mEq/L or ECG changes present, EMERGENCY TREATMENT: 1) CALCIUM GLUCONATE: 10-30 mL of 10% solution IV slow (2-5 min), stabilizes cardiac membrane, onset within minutes but transient — repeat in 5-10 min if needed. 2) REGULAR INSULIN + GLUCOSE: 10 U regular insulin IV + 50 mL 50% Dextrose (or 250 mL 10% Dextrose), shifts potassium intracellularly, onset 15-30 min. 3) SODIUM BICARBONATE: 50 mEq IV over 5-10 min, more effective if acidosis present. 4) SALBUTAMOL NEBULIZATION: 10-20 mg nebulized, shifts potassium intracellularly. 5) ION EXCHANGE RESIN: Sodium polystyrene sulfonate (Kayexalate) 15-30 g oral/rectal. 6) DIALYSIS: Hemodialysis indicated for hyperkalemia unresponsive to medical therapy or in anuria."
+    },
+    {
+      "title": "ECG Monitoring and Hyperkalemia Signs",
+      "content": "Continuous ECG monitoring is MANDATORY in crush syndrome. HYPERKALEMIA ECG CHANGES (progressive with rising K+): K+ 5.5-6.5: Peaked, tall, symmetrical T waves (earliest sign). K+ 6.5-7.5: P wave flattening, PR prolongation, QRS widening begins. K+ 7.5-8.0: P wave disappears, QRS markedly widens, sinusoidal wave pattern. K+ >8.0: VF or asystole risk very high → EMERGENCY calcium gluconate + dialysis. ALSO MONITOR: Hypocalcemia signs (QT prolongation), hypovolemia signs (tachycardia, hypotension)."
+    },
+    {
+      "title": "Fasciotomy Indications",
+      "content": "Compartment syndrome is an important complication of crush injury. FASCIOTOMY INDICATIONS: 1) Compartment pressure >30 mmHg (or diastolic BP - compartment pressure <30 mmHg). 2) Clinical 5P signs: Pain (disproportionate pain, increased with passive stretch), Paresthesia (numbness), Paralysis (LATE sign), Pallor, Pulselessness (VERY LATE sign). 3) Tense, swollen extremity after >6 hours of entrapment. CAUTION: Fasciotomy decision in crush syndrome must be made carefully — it increases infection risk and additional fluid loss. If possible, decide with surgical specialist."
+    },
+    {
+      "title": "Renal Protection and Referral",
+      "content": "Acute kidney injury is the most important late complication of crush syndrome (up to 50%). RENAL PROTECTION: 1) Aggressive IV hydration (most important measure!). 2) Urine alkalinization (NaHCO3 to target urine pH >6.5). 3) MANNITOL: 1-2 g/kg IV infusion (osmotic diuretic, increases myoglobin clearance) — however, do not give in anuria, start after hypovolemia is corrected. 4) Avoid nephrotoxic agents (NSAIDs, aminoglycosides, contrast media). URINE MONITORING: Hourly urine output, urine color (dark brown = myoglobinuria), urine myoglobin. REFERRAL: All crush syndrome patients must be referred to a center with dialysis capability. If K+ >6.5 or anuria, emergency dialysis is required."
+    }
+  ],
+  "keywords": ["crush syndrome", "crush injury", "earthquake", "rubble", "myoglobin", "rhabdomyolysis", "hyperkalemia", "acute kidney injury", "reperfusion", "compartment syndrome", "fasciotomy", "sodium bicarbonate", "calcium gluconate"],
+  "related_protocols": ["trauma", "hypothermia", "cardiac_arrest", "mci_triage", "drug_doses"]
+}
